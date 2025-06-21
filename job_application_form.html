@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+</head>
+<body>
+
+    <h1 style="color:brown; text-align:center;">Student Job Application Form</h1>
+
+    <form>
+        <table border="2" align="center" cellpadding="10">   <!--  cellpadding="10 , Adds inner padding space of 10px to each cell (for beauty & spacing)-->
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <td><label>Department:</label></td>
+                <td><input type="text" name="department"></td>
+            </tr>
+
+            <tr>
+                <td><label>College:</label></td>
+                <td><input type="text" name="college"></td>
+            </tr>
+
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Skills:</label></td>
+                <td>
+                    <input type="checkbox" name="skill" value="JAVA"> JAVA
+                    <input type="checkbox" name="skill" value="HTML"> HTML
+                    <input type="checkbox" name="skill" value="CSS"> CSS
+                    <input type="checkbox" name="skill" value="Javascript"> Javascript
+                    <input type="checkbox" name="skill" value="SQL"> SQL
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Resume:</label></td>
+                <td><input type="file" name="resume"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+
+
